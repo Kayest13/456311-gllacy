@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Анна Самарина](https://up.htmlacademy.ru/htmlcss/19/user/456311).
-* Наставник: `Неизвестно`.
+* Наставник: [Николай Пойманов](https://htmlacademy.ru/profile/poymanov).
 
 ---
 
