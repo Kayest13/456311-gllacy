@@ -6,10 +6,128 @@ body {
   line-height: 22px;
   font-weight: bold;
   color: #ffffff;
-  text-transform: capitalize;
 
-  background-color: green;
-  background-image: url("img/background1.jpg");
+  background-color: #8ba597;
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+a {
+  color: #ffffff;
+  text-decoration-color: #ffffff;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #8ba597;
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  color: #000000;
+  text-decoration: none;
+}
+
+.info-list,
+.footer-info-list-item {
+  list-style: none;
+}
+
+p {
+  text-align: left;
+}
+.catalog-item-image p,
+.feature-item {
+  text-align: center;
+}
+
+.slide h2 {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.catalog-prise p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.catalog-price {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.catalog-measure {
+  font-size: 40px;
+  text-transform: none;
+}
+
+.advertising-container1 {
+  width: 560px;
+  height: 229px;
+  background-color: #880327;
+  background-image: url("../img/bg1.png");
+}
+
+.advertising-container2 {
+  width: 560px;
+  height: 229px;
+  background-color: #5d3a2d;
+  background-image: url("../img/bg2.png");
+}
+
+.info {
+  width: 743px;
+  height: 433px;
+  background-image: url("../img/bg3.png");
+}
+
+.blog {
+  width: 560px;
+  height: 220px;
+  background-image: url("../img/ice-bg.png");
+  background-repeat: no-repeat;
+  color: #000000;
+}
+
+.subscribe {
+  width: 560px;
+  height: 220px;
+  background-image: url("../img/post-bg.png");
+  background-image: url("../img/post-bg2.png");
+  background-repeat: no-repeat;
+  color: #000000;
+}
+/* тут мозг вскипел, как две картинки наложить - не понимаю
+.subscribe {
+  width: 549px;
+  height: 211px;
+  background-image: url("../img/post-bg2.png");
+  background-repeat: no-repeat;
+}
+*/
+
+.blog a {
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.button-subscribe {
+  background-color: #e84e37;
+}
+
+/* тут я не понимаю, почему не работает */
+.button-subscribe a:hover,
+.button-subscribe a:focus {
+  text-decoration: none;
 }
