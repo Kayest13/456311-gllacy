@@ -102,13 +102,10 @@ p {
 
 .subscribe {
   width: 560px;
-  height: 220px;
-  border-radius: 15px;
-  padding: 8px;
-  background-image: url("../img/post-bg.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  color: #000000;
+  background-color: #f8f7f4;
+  background-image: url(../img/post-bg.png); 
+  border-radius: 11px;
+  min-height: 220px;
 }
 
 .blog-href  {
