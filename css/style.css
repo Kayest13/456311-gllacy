@@ -103,9 +103,22 @@ p {
 .subscribe {
   width: 560px;
   background-color: #f8f7f4;
-  background-image: url(../img/post-bg.png); 
+  background-image: url(../img/post-bg.png);
   border-radius: 11px;
   min-height: 220px;
+  padding-top: 1px;
+  color: #000000;
+}
+
+.subscribe-wrapper {
+  width: 511px;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 29px 18px 29px 21px;
+  background-color: #f8f7f4;
+  min-height: 151px;
+  vertical-align: middle;
+  border-radius: 10px;
 }
 
 .blog-href  {
