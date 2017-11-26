@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -51,6 +52,11 @@ p {
   text-align: center;
 }
 
+.container-slider {
+  height: 535px;
+  border: 1px solid darkgreen;
+}
+
 .slide h2 {
   font-size: 60px;
   line-height: 60px;
@@ -71,25 +77,26 @@ p {
   text-transform: none;
 }
 
-.advertising-container1 {
-  width: 560px;
-  height: 229px;
-  background-color: #880327;
-  background-image: url("../img/bg1.png");
-}
-
-.advertising-container2 {
-  width: 560px;
-  height: 229px;
-  background-color: #5d3a2d;
-  background-image: url("../img/bg2.png");
+.blog-main {
+  width: 1145px;
+  height: 220px;
+  border: 2px solid #1a7c6d;
+  margin-left: 26px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 33px;
 }
 
 .info {
-  width: 743px;
-  height: 433px;
+  width: 1145px;
+  height: 305px;
   background-image: url("../img/bg3.png");
   color: black;
+  border: 2px solid #1a7c6d;
+  margin-left: 26px;
+  border-radius: 16px;
+  margin-bottom: 33px;
 }
 
 .blog {
@@ -108,6 +115,8 @@ p {
   min-height: 220px;
   padding-top: 1px;
   color: #000000;
+  background-repeat: no-repeat;
+  margin-left: auto;
 }
 
 .subscribe-wrapper {
@@ -119,6 +128,7 @@ p {
   min-height: 151px;
   vertical-align: middle;
   border-radius: 10px;
+  background-repeat: no-repeat;
 }
 
 .blog-href  {
@@ -129,6 +139,10 @@ p {
   text-decoration: underline;
 }
 
+.contacts {
+  border: 1px solid #f40c0c;
+}
+
 .feedback-form {
   width: 300px;
   height: 300px;
@@ -136,6 +150,17 @@ p {
   color: black;
   background-color: #f8f7f4;
   border-radius: 10px;
+}
+
+.mail-footer {
+  width: 1145px;
+  height: 100px;
+  border: 2px solid #1a7c6d;
+  margin-left: 26px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .button,
@@ -209,4 +234,134 @@ ul.pagination li a:hover:not(.active) {
 .pagination-item a:active {
   color: black;
   background-color: #ffffff;
+}
+
+html,
+body {
+  width: 1200px;
+  min-height: 2420px;
+}
+
+body {
+  /* Временно для сетки */
+  background-image: url("../img/gllacy-index-1200.jpg");
+  background-size: 1200px auto;
+  background-repeat: no-repeat;
+}
+
+.main-header {
+
+  /* Временно для сетки */
+  border: 1px solid red;
+}
+
+.main-navigation {
+ display: flex;
+ flex-direction: row;
+ /* Временно для сетки */
+ background-color: transparent;
+ border: 1px solid blue;
+}
+
+.main-header-logo {
+  width: 155px;
+  height: 64px;
+  border: 1px solid green;
+  margin-top: 6px;
+  margin-left: 24px;
+}
+
+.main-navigation-wrapper {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  border: 1px solid skyblue;
+}
+
+.site-navigation {
+  width: 355px;
+  padding: 10px 0 0 0;
+  justify-content: space-between;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  /* Временно для сетки */
+  border: 1px solid yellow;
+}
+
+.user-navigation {
+  width: 240px;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0 0 0;
+  justify-content: space-between;
+  /* Временно для сетки */
+  border: 1px solid orange;
+}
+
+.work-time {
+  display: block;
+  width: 250px;
+  height: 30px;
+  margin-left: 950px;
+  border: 1px solid black;
+  padding: 0;
+}
+
+.working-time {
+  font-size: 12px;
+}
+
+.ad-con-main {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #fa66ff;
+}
+
+.ad-con-main {
+  width: 1200;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #fa66ff;
+}
+
+.advertising-container1 {
+  width: 560px;
+  height: 229px;
+  background-color: #880327;
+  background-image: url("../img/bg1.png");
+  margin-left: 26px;
+  border-radius: 10px;
+}
+
+.advertising-container2 {
+  width: 560px;
+  height: 229px;
+  background-color: #5d3a2d;
+  background-image: url("../img/bg2.png");
+  margin-left: auto;
+  margin-right: 26px;
+  border-radius: 10px;
+}
+
+.catalog-hits-list {
+  height: 370px;
+  border: 1px solid #1a287c;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.orange,
+.coffee,
+.strawberry,
+.caramel,
+.footer-social,
+.footer-info,
+.footer-copyright {
+  border: 1px solid #7c1a4f;
 }
