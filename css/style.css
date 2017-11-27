@@ -254,13 +254,12 @@ ul.pagination li a:hover:not(.active) {
 
 html,
 body {
-  width: 1200px;
   min-height: 2420px;
 }
 
 body {
   /* Временно для сетки */
-  background-image: url("../img/gllacy-index-12000.jpg");
+  background-image: url("../img/gllacy-catalog-1200.jpg");
   background-size: 1200px auto;
   background-repeat: no-repeat;
 }
@@ -407,4 +406,25 @@ body {
 .footer-info,
 .footer-copyright {
   border: 1px solid #7c1a4f;
+}
+
+.breadcrumbs1 {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
 }
