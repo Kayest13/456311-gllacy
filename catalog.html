@@ -86,22 +86,12 @@
           <div class="filter-1">
           <fieldset>
             <legend>Сортировка:</legend>
-            <ul>
-              <li class="filter-option">
-                по популярности
-              </li>
-              <!--
-              <li class="filter-option">
-                сначала недорогие
-              </li>
-              <li class="filter-option">
-                сначала дорогие
-              </li>
-              <li class="filter-option">
-                по жирности
-              </li>
-            </ul>
-          -->
+            <p><select size="1" name="choise">
+              <option selected value="по популярности">по популярности</option>
+              <option value="сначала недорогие">сначала недорогие</option>
+              <option value="сначала дорогие">сначала дорогие</option>
+              <option value="по жирности">по жирности</option>
+            </select></p>
           </fieldset>
           <fieldset>
             <legend>Цена: 100 руб. - 500 руб.</legend>
@@ -173,8 +163,8 @@
       <section class="catalog">
         <h2 class="visually-hidden">Список мороженного</h2>
         <div class="catalog-list">
-          <div class="row-1">
-          <li class="catalog-item">
+
+          <div class="catalog-item">
             <a href="catalog-item-image.html">
               <image src="img/orange-ice.png">
             </a>
@@ -187,8 +177,8 @@
                 <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
               </a>
             </h3>
-          </li>
-          <li class="catalog-item">
+          </div>
+          <div class="catalog-item">
             <a href="catalog-item-image.html">
               <image src="img/coffe-ice.png">
             </a>
@@ -201,8 +191,8 @@
                 <p>Сливочно-кофейное с кусочками шоколада</p>
               </a>
             </h3>
-          </li>
-          <li class="catalog-item">
+          </div>
+          <div class="catalog-item">
             <a href="catalog-item-image.html">
               <image src="img/strawberry-ice.png">
             </a>
@@ -215,8 +205,8 @@
                 <p>Сливочно-клубничное с присыпкой из белого шоколада</p>
               </a>
             </h3>
-          </li>
-          <li class="catalog-item">
+          </div>
+          <div class="catalog-item">
             <a href="catalog-item-image.html">
               <image src="img/caramel-ice.png">
             </a>
@@ -229,10 +219,9 @@
                 <p>Сливочное с крем-брюле с карамельной подливкой</p>
               </a>
             </h3>
-          </li>
-        </div>
-        <div class="row-2">
-          <li class="catalog-item">
+          </div>
+
+          <div class="catalog-item">
             <a href="catalog-item-image.html">
               <image src="img/lingonberry-ice.png">
             </a>
@@ -245,8 +234,8 @@
                 <p>Сливочное с брусничным джемом</p>
               </a>
             </h3>
-          </li>
-          <li class="catalog-item">
+          </div>
+          <div class="catalog-item">
             <a href="catalog-item-image.html">
               <image src="img/blueberries-ice.png">
             </a>
@@ -259,8 +248,8 @@
                 <p>Сливочно-черничное с цельными ягодами черники</p>
               </a>
             </h3>
-          </li>
-          <li class="catalog-item">
+          </div>
+          <div class="catalog-item">
             <a href="catalog-item-image.html">
               <image src="img/lemon-ice.png">
             </a>
@@ -273,8 +262,8 @@
                 <p>Сливочно-лимонное с карамельной присыпкой</p>
               </a>
             </h3>
-          </li>
-          <li class="catalog-item">
+          </div>
+          <div class="catalog-item">
             <a href="catalog-item-image.html">
               <image src="img/creamy-ice.png">
             </a>
@@ -287,10 +276,9 @@
                 <p>Сливочное с шоколадной стружкой</p>
               </a>
             </h3>
-          </li>
-        </div>
-        <div class="row-3">
-          <li class="catalog-item">
+          </div>
+
+          <div class="catalog-item">
             <a href="catalog-item-image.html">
               <image src="img/vanile-ice.png">
             </a>
@@ -303,8 +291,8 @@
                 <p>Сливочно-ванильное с кусочками шоколада</p>
               </a>
             </h3>
-          </li>
-          <li class="catalog-item">
+          </div>
+          <div class="catalog-item">
             <a href="catalog-item-image.html">
               <image src="img/menthol-ice.png">
             </a>
@@ -317,8 +305,8 @@
                 <p>Сливочное с ментоловым сиропом</p>
               </a>
             </h3>
-          </li>
-          <li class="catalog-item">
+          </div>
+          <div class="catalog-item">
             <a href="catalog-item-image.html">
               <image src="img/creamy-ice2.png">
             </a>
@@ -331,8 +319,8 @@
                 <p>Сливочное с кусочками черного шоколада</p>
               </a>
             </h3>
-          </li>
-          <li class="catalog-item">
+          </div>
+          <div class="catalog-item">
             <a href="catalog-item-image.html">
               <image src="img/mint-ice.png">
             </a>
@@ -345,19 +333,19 @@
                 <p>Сливочное с мятным сиропом</p>
               </a>
             </h3>
-          </li>
+          </div>
+        </section>
+        <div class="pagination-wrapper">
+          <ul class="pagination">
+            <li><a class="active" href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+          </ul>
         </div>
-      </div class="pan-1">
-        <ul class="pagination">
-          <li><a class="active" href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-        </ul>
-      </section>
     </main>
-    <footer class="mail-footer">
+    <footer class="main-footer">
       <div class="footer-social">
         <a class="social-button" href="#">
           <image src="img/tweeter.png">
