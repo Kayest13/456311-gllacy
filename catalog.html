@@ -44,7 +44,6 @@
               </li>
               <li class="shopping-basket">
                 <a href="shopping-site">2 товара</a>
-
           <!--
             <table>
               <tr>
@@ -65,44 +64,33 @@
                 <td colspan="5">Итого: 750 руб.</td>
               </tr>
             </table>
-
-            </li>
-          </ul>
-          <ul class="breadcrumbs">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li class="breadcrumbs-current">Сливочное</li>
-          </ul>
 -->
           </nav>
-          <div class="breadcrumbs1">
-          <ul class="breadcrumbs">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li class="breadcrumbs-current">Сливочное</li>
-          </ul>
-         </div>
           <div class="work-time">
             <p class="working-time">с 10 до 20, ежедневно</p>
             <p class="phone-nummer">8 812 450-25-25</p>
           </div>
-
         </div>
-
     </header>
     <main class="container">
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li class="breadcrumbs-current">Сливочное</li>
+      </ul>
       <h1 class="page-title">Cливочное мороженное</h1>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <!-- Здесь будет форма -->
         <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+          <div class="filter-1">
           <fieldset>
             <legend>Сортировка:</legend>
-            <!--
             <ul>
               <li class="filter-option">
                 по популярности
               </li>
+              <!--
               <li class="filter-option">
                 сначала недорогие
               </li>
@@ -121,57 +109,74 @@
               <input type="range" name="radio">
             </label>
           </fieldset>
-          <fieldset>
-            <legend>Жирность:</legend>
-              <input type="radio" name="fett" id="fett-zero">
-                <label for="fett-zero">
-                  0%
-                </label>
-              <input type="radio" name="fett" id="fett-10" checked>
-                <label for="fett-10">
-                  до 10%
-                </label>
-              <input type="radio" name="fett" id="fett-30">
-                <label for="fett-30">
-                  до 30%
-                </label>
-              <input type="radio" name="fett" id="fett-40">
-                <label for="fett-40">
-                  выше 30%
-                </label>
+          <fieldset class="Fett">
+            <legend class="font-size">Жирность:</legend>
+              <div class="fieldset-3">
+              <label for="fett-zero">
+               <input class="radio" type="radio" name="fett" id="fett-zero">
+                <span class="radio-custom"></span>
+                <span class="label">0%</span>
+              </label>
+              <label for="fett-10">
+               <input class="radio" type="radio" name="fett" id="fett-10" checked>
+                <span class="radio-custom"></span>
+                <span class="label">до 10%</span>
+              </label>
+              <label for="fett-30">
+              <input class="radio" type="radio" name="fett" id="fett-30">
+                <span class="radio-custom"></span>
+                <span class="label">до 30%</span>
+              </label>
+              <label for="fett-40">
+              <input class="radio" type="radio" name="fett" id="fett-40">
+                <span class="radio-custom"></span>
+                <span class="label">выше 30%</span>
+              </label>
+            </div>
           </fieldset>
-          <fieldset>
+        </div>
+        <div class="filter-2">
+          <fieldset class="fieling">
             <legend>Наполнители:</legend>
-              <input type="checkbox" name="shoko" id="filter-shoko" checked>
+              <div class="fieldset-4">
                 <label for="filter-shoko">
-                  шоколадные
+                 <input class="" type="checkbox" name="shoko" id="filter-shoko" checked>
+                 <span class="checkbox-custom"></span>
+                 <span class="label">шоколадные</span>
                 </label>
-              <input type="checkbox" name="sugar" id="filter-sugar" checked>
-                <label for="filter-sugar">
-                  сахарные присыпки
+                <label for="filter-shoko">
+                 <input class="" type="checkbox" name="shoko" id="filter-sugar" checked>
+                 <span class="checkbox-custom"></span>
+                 <span class="label">сахарные присыпки</span>
                 </label>
-              <input type="checkbox" name="friuts" id="filter-fruits">
-                <label for="filter-fruits">
-                  фрукты
+                <label for="filter-shoko">
+                 <input class="" type="checkbox" name="shoko" id="filter-fruits">
+                 <span class="checkbox-custom"></span>
+                 <span class="label">фрукты</span>
                 </label>
-              <input type="checkbox" name="sirup" id="filter-sirup">
-                <label for="filter-sirup">
-                  сиропы
+                <label for="filter-shoko">
+                 <input class="" type="checkbox" name="shoko" id="filter-sirup">
+                 <span class="checkbox-custom"></span>
+                 <span class="label">сиропы</span>
                 </label>
-              <input type="checkbox" name="jam" id="filter-jam">
-                <label for="filer-jam">
-                  джемы
+                <label for="filter-shoko">
+                 <input class="" type="checkbox" name="shoko" id="filter-jam">
+                 <span class="checkbox-custom"></span>
+                 <span class="label">джемы</span>
                 </label>
               <button type="submit">Применить</button>
+             </div>
           </fieldset>
+        </div>
         </form>
       </section>
       <section class="catalog">
         <h2 class="visually-hidden">Список мороженного</h2>
-        <ul class="catalog-list">
+        <div class="catalog-list">
+          <div class="row-1">
           <li class="catalog-item">
             <a href="catalog-item-image.html">
-              <image src="img/orange-ice.png" width="150" height="150">
+              <image src="img/orange-ice.png">
             </a>
             <p class="catalog-item-price">
               <span class="catalog-price">310 Р/</span>
@@ -185,7 +190,7 @@
           </li>
           <li class="catalog-item">
             <a href="catalog-item-image.html">
-              <image src="img/coffe-ice.png" width="150" height="150">
+              <image src="img/coffe-ice.png">
             </a>
             <p class="catalog-item-price">
               <span class="catalog-price">380 Р/</span>
@@ -199,7 +204,7 @@
           </li>
           <li class="catalog-item">
             <a href="catalog-item-image.html">
-              <image src="img/strawberry-ice.png" width="150" height="150">
+              <image src="img/strawberry-ice.png">
             </a>
             <p class="catalog-item-price">
               <span class="catalog-price">355 Р/</span>
@@ -213,7 +218,7 @@
           </li>
           <li class="catalog-item">
             <a href="catalog-item-image.html">
-              <image src="img/caramel-ice.png" width="150" height="150">
+              <image src="img/caramel-ice.png">
             </a>
             <p class="catalog-item-price">
               <span class="catalog-price">415 Р/</span>
@@ -225,9 +230,11 @@
               </a>
             </h3>
           </li>
+        </div>
+        <div class="row-2">
           <li class="catalog-item">
             <a href="catalog-item-image.html">
-              <image src="img/lingonberry-ice.png" width="150" height="150">
+              <image src="img/lingonberry-ice.png">
             </a>
             <p class="catalog-item-price">
               <span class="catalog-price">325 Р/</span>
@@ -241,7 +248,7 @@
           </li>
           <li class="catalog-item">
             <a href="catalog-item-image.html">
-              <image src="img/blueberries-ice.png" width="150" height="150">
+              <image src="img/blueberries-ice.png">
             </a>
             <p class="catalog-item-price">
               <span class="catalog-price">410 Р/</span>
@@ -255,7 +262,7 @@
           </li>
           <li class="catalog-item">
             <a href="catalog-item-image.html">
-              <image src="img/lemon-ice.png" width="150" height="150">
+              <image src="img/lemon-ice.png">
             </a>
             <p class="catalog-item-price">
               <span class="catalog-price">375 Р/</span>
@@ -269,7 +276,7 @@
           </li>
           <li class="catalog-item">
             <a href="catalog-item-image.html">
-              <image src="img/creamy-ice.png" width="150" height="150">
+              <image src="img/creamy-ice.png">
             </a>
             <p class="catalog-item-price">
               <span class="catalog-price">320 Р/</span>
@@ -281,9 +288,11 @@
               </a>
             </h3>
           </li>
+        </div>
+        <div class="row-3">
           <li class="catalog-item">
             <a href="catalog-item-image.html">
-              <image src="img/vanile-ice.png" width="150" height="150">
+              <image src="img/vanile-ice.png">
             </a>
             <p class="catalog-item-price">
               <span class="catalog-price">440 Р/</span>
@@ -297,7 +306,7 @@
           </li>
           <li class="catalog-item">
             <a href="catalog-item-image.html">
-              <image src="img/menthol-ice.png" width="150" height="150">
+              <image src="img/menthol-ice.png">
             </a>
             <p class="catalog-item-price">
               <span class="catalog-price">435 Р/</span>
@@ -311,7 +320,7 @@
           </li>
           <li class="catalog-item">
             <a href="catalog-item-image.html">
-              <image src="img/creamy-ice2.png" width="150" height="150">
+              <image src="img/creamy-ice2.png">
             </a>
             <p class="catalog-item-price">
               <span class="catalog-price">355 Р/</span>
@@ -325,7 +334,7 @@
           </li>
           <li class="catalog-item">
             <a href="catalog-item-image.html">
-              <image src="img/mint-ice.png" width="150" height="150">
+              <image src="img/mint-ice.png">
             </a>
             <p class="catalog-item-price">
               <span class="catalog-price">420 Р/</span>
@@ -337,7 +346,8 @@
               </a>
             </h3>
           </li>
-        </ul>
+        </div>
+      </div class="pan-1">
         <ul class="pagination">
           <li><a class="active" href="#">1</a></li>
           <li><a href="#">2</a></li>
