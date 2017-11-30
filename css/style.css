@@ -431,10 +431,58 @@ body {
 
 .breadcrumbs {
   width: 200px;
+  margin-left: 27px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border: 1px solid #07fa1e;
+  flex-direction: wrap;
+  justify-content: flex-start;
+
+  /* для разметки */
+  background: rgba(255, 45, 82, 0.2);
+}
+
+.breadcrumbs li {
+  position: relative;
+  margin-right: 10px;
+
+  background: rgba(255, 45, 82, 0.2);
+
+}
+
+.breadcrumbs a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -18px;
+    z-index: 1;
+    width: 36px;
+    height: 36px;
+    border-radius: 50px 0 0 0;
+    box-shadow: 3px 3px 0 0 white;
+    transform: translateX(2px) translateY(-6px) rotate(-45deg) scale(0.2);
+}
+
+.breadcrumbs li:last-child {
+  margin-right: 0;
+}
+/*
+.breadcrumbs li::after {
+  content: "";
+
+  position: absolute;
+  top: 7px;
+  right: -8px;
+
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+
+  background-color: #ffffff;
+}
+*/
+
+
+.breadcrumbs-current::after {
+  display: none;
 }
 
 .visually-hidden:not(:focus):not(:active),
