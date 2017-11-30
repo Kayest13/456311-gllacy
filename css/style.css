@@ -36,6 +36,32 @@ a {
   list-style: none;
 }
 
+input[type="image"] {
+    background-color: #b0c0b7;
+    border: 6px solid #b0c0b7;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+
+input[type="submit"],
+button {
+  display: inline-block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 20px;
+  color: #ffffff;
+  background: #b0c0b7;
+  border: none;
+  border-radius: 14px;
+}
+
+
+button > img {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
 .site-navigation a:hover,
 .site-navigation a:focus,
 .user-navigation a:hover,
@@ -307,7 +333,7 @@ body {
   display: flex;
   flex-direction: row;
   margin-left: 10px;
-  border: 1px solid skyblue;
+  background-color: skyblue;
 }
 
 .site-navigation {
@@ -327,12 +353,16 @@ body {
   margin-left: auto;
   margin-right: 40px;
   display: flex;
-  flex-direction: row;
-  padding: 10px 0 0 0;
+  flex-direction: wrap;
+  align-items: center;
+  padding: 2px;
   justify-content: space-between;
+
   /* Временно для сетки */
-  border: 1px solid orange;
+  background-color: orange;
 }
+
+
 
 .work-time {
   display: block;
@@ -483,6 +513,21 @@ body {
 
 .breadcrumbs-current::after {
   display: none;
+}
+
+.styled-select {
+  background: #a1b4a9;
+  background-color: #f8f7f4;
+  width: 171px;
+  height: 23px;
+  overflow: hidden;
+  margin-left: 23px;
+  margin-top: 5px;
+  border-radius: 6px;
+}
+
+.styled-select {
+  background: #a1b4a9;
 }
 
 .visually-hidden:not(:focus):not(:active),

@@ -32,7 +32,8 @@
             </ul>
             <ul class="user-navigation">
               <li class="serch-link">
-                <button class="button-search"></button>
+                <input type="image" src="img/luope.png" alt="">
+
           <!--
           <section>
           <input class="button-search" placeholder="Что ищем?"></input>
@@ -40,7 +41,9 @@
         -->
               </li>
               <li class="login-link">
-                <a class="login-link" href="login.html">Вход</a>
+                <button type="submit"><img src="img/exit.png">   Вход
+                </button>
+
               </li>
               <li class="shopping-basket">
                 <a href="shopping-site">2 товара</a>
@@ -86,12 +89,14 @@
           <div class="filter-1">
           <fieldset>
             <legend>Сортировка:</legend>
-            <p><select size="1" name="choise">
-              <option selected value="по популярности">по популярности</option>
-              <option value="сначала недорогие">сначала недорогие</option>
-              <option value="сначала дорогие">сначала дорогие</option>
-              <option value="по жирности">по жирности</option>
-            </select></p>
+            <div class="styled-select">
+              <select size="1" name="choise">
+               <option selected value="по популярности">по популярности</option>
+               <option value="сначала недорогие">сначала недорогие</option>
+               <option value="сначала дорогие">сначала дорогие</option>
+               <option value="по жирности">по жирности</option>
+             </select>
+            </div>
           </fieldset>
           <fieldset>
             <legend>Цена: 100 руб. - 500 руб.</legend>
