@@ -3,52 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" >
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <div class="main-container">
     <header class="main-header">
      <nav class="main-navigation">
         <a class="main-header-logo">
-         <img src="img/logo.png" alt="Логотип GllasyShop">
+         <img src="img/logo.svg" alt="Логотип GllasyShop">
         </a>
           <div class="main-navigation-wrapper">
             <ul class="site-navigation">
               <li><a href="catolog.html">Каталог</a>
-            <!--
-              <ul>
+
+              <ul class="none">
                 <li class="bold"><a href="new-ice.html">Новинки</a></li>
                 <li><a href="creamy-ice">Сливочное</a></li>
                 <li><a href="scrubbings">Щербеты</a></li>
                 <li><a href="fruit-ice">Фруктовый лед</a></li>
                 <li><a href="melorin">Мелорин</a></li>
               </ul>
-            -->
+
               </li>
               <li><a href="delivery.html">Доставка и оплата</a></li>
               <li><a href="info.html">О Компании</a></li>
             </ul>
             <ul class="user-navigation">
               <li class="serch-link">
-                <input type="image" src="img/luope.png" alt="">
+                <input type="image" src="img/magnifer.svg" alt="">
 
-          <!--
-          <section>
+
+          <section class="none">
           <input class="button-search" placeholder="Что ищем?"></input>
           </section>
-        -->
+
               </li>
               <li class="login-link">
-                <button type="submit"><img src="img/exit.png">   Вход
+                <button class="enter" type="submit"><img src="img/enter.svg">   Вход
                 </button>
 
               </li>
               <li class="shopping-basket">
                 <a href="shopping-site">2 товара</a>
-          <!--
-            <table>
+
+            <table class="none">
               <tr>
                 <td>x</td>
                 <td><image src="img/orange-ice.png" width="20" height="20"></td>
@@ -67,7 +67,7 @@
                 <td colspan="5">Итого: 750 руб.</td>
               </tr>
             </table>
--->
+
           </nav>
           <div class="work-time">
             <p class="working-time">с 10 до 20, ежедневно</p>
@@ -76,15 +76,19 @@
         </div>
     </header>
     <main class="container">
-      <ul class="breadcrumbs">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li class="breadcrumbs-current">Сливочное</li>
-      </ul>
+      <div class="breadcrumbs">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li>»</li>
+          <li><a href="#">Каталог</a></li>
+          <li>»</li>
+          <li class="current-breadcrumbs">Сливочное</li>
+        </ul>
+      </div>
       <h1 class="page-title">Cливочное мороженное</h1>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
-        <!-- Здесь будет форма -->
+
         <form class="filter" method="get" action="https://echo.htmlacademy.ru">
           <div class="filter-1">
           <fieldset>
